@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 5.667 s <<< FAILURE! - in TestSuite
+setUp(com.qa.opencart.tests.HomePageTest)  Time elapsed: 4.858 s  <<< FAILURE!
+com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+  name='Error
+  stack='Error: connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+}
+Caused by: com.microsoft.playwright.impl.DriverException: 
+Error {
+  message='connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+  name='Error
+  stack='Error: connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+}
+
+homePageTitleTest(com.qa.opencart.tests.HomePageTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setUp(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0.724 s  <<< FAILURE!
+com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+  name='Error
+  stack='Error: connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+}
+Caused by: com.microsoft.playwright.impl.DriverException: 
+Error {
+  message='connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+  name='Error
+  stack='Error: connect ECONNREFUSED 127.0.0.1:4444
+=========================== logs ===========================
+<selenium> connecting to http://localhost:4444/wd/hub/
+============================================================
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+}
+
+forgotPasswordLinkDisplayedTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
